@@ -1,0 +1,278 @@
+.bg-color{
+	background-color: #f7f8fa;
+}
+.blue-color{
+	    color: #316DC3;
+}
+.bg-blue-color{
+	    background-color: #244ff2;
+
+
+}
+.bg-green-color{
+	    color:#00ff00;
+}
+.green-color{
+	color: #427900 ;
+}
+header .top-nav-1{
+	background-color: #316DC3;
+
+}
+header .top-nav-1 nav{
+	align-items: center;
+}
+header .top-nav-1 nav ul li .fab{
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;       
+}
+header .top-nav-1 nav ul li .fab:hover{
+    background-color: blue;
+}
+header .top-nav-1 nav span{
+	color: #fff
+}
+header .top-nav-2 nav{
+	align-items: center;
+}
+header .top-nav-2 .img-logo img{
+	max-width: 191px;
+}
+header .top-nav-2 nav ul li a {
+	transition: 0.1s;
+}
+header .top-nav-2 nav ul li a:hover{
+	background-color: #316DC3;
+	color: #ffff; 
+	border-radius: 30px;
+	transition: 0.7s;
+}
+header .top-nav-2 nav ul li .active{
+	background-color: #316DC3;
+	color: #ffff; 
+	border-radius: 30px;
+	transition: 0.7s;
+}
+.top-nav-1 .button .btn{
+	border: 1px solid #427900;font-size: 11px;color: #427900;background-color: #fff;
+	border-radius: 0;
+}
+/*marquee section start*/
+.marquee{
+	padding: 10px 0 10px 0;
+}
+.marquee .marque-body{
+	background-color: #316DC3
+}
+/*introduction section start*/
+.introduction{
+	padding: 60px 0 60px 0;
+}
+.introduction .intro-header h1{
+	font-size: 32px;font-family: 'Merriweather', serif;font-weight: 600; 
+}
+.favicon img{
+	width: 40px;
+}
+.favicon{
+	position: relative;
+}
+.favicon:before {
+    content: " ";
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    top: 71%;
+    margin-left: -47px;
+    background-color: #427900;
+}
+.favicon:after {
+    content: " ";
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    top: 71%;
+    margin-left: 12px;
+    background-color: #427900;
+}
+.introduction .intro-header p{
+	font-size: 15px; text-align: justify;padding-top: 20px;line-height: 1.5;max-width: 900px;margin: auto;
+}
+/*daily status section start*/
+.daily-status .daily-status-body{
+	padding: 50px 0 50px 0;
+}
+.daily-status .daily-status-body img{
+	max-width:40px; 
+}
+.daily-status .daily-status-body h2{
+	font-size: 48px;color: #fff;
+}
+.daily-status .daily-status-body h5{
+	font-size: 14px;color: #fff;
+}
+
+ 	/*<!-- what we are doing section -->*/
+.doing{
+	padding :80px 0 60px 0;
+	background-color:#f7f8fa;
+}
+.doing h2{
+	font-size:32px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+}
+.doing .working-1 .my-box{
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	background-color: #fff;
+	margin:10px;
+	padding:30px;
+
+}
+.doing .working-1{
+ 	margin-top: 30px;
+ }
+.doing .working-1 h4{
+	color: #316dc3;
+	margin:20px 0 15px;
+	font-size: 18px;
+}
+.doing .working-1s img{
+	width: 70px;
+}  
+		/*mission and up coming projects*/
+
+.upcoming-project .mission-text h3{
+	    font-size: 24px;
+    color: #316dc3;
+    position: relative;
+    margin-bottom: 40px;
+}
+.upcoming-project {
+	    padding: 40px 0 40px 0;
+	
+}    
+.upcoming-project .box-2 img{
+	vertical-align: middle;
+    border-style: none;
+} 
+.upcoming-project .box-2 h4{
+	font-size: 15px;
+    color: #316dc3;
+    font-weight: 500;
+    margin: 10px 0 10PX 20px;
+}
+.upcoming-project .box-2{
+	background-color: #f7f8fa;padding: 15px;margin: 10px;
+	border:1px solid #eeeeee; 
+}
+.mission-text h3:after {
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    display: block;
+    background: #427927;
+    margin-top: 10px;
+}
+.Upcoming-events h3{   font-size: 24px;
+    color: #316dc3;border-bottom: 1px solid #eeeeee;padding-bottom:11px;
+
+}
+.Upcoming-events h3:after {
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    display: block;
+    background: #427927;
+    margin-top: 10px;
+}
+.upcoming-project p marquee{
+	font-size: 14px;
+
+}    
+            /*image gallery*/
+.gallery{
+	padding :80px 0 60px 0;
+}
+.gallery h2{
+	font-size:32px;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;             
+}
+.gallery .gallery-section .h img{
+
+    width: 226px;
+    height:150px;
+
+}
+.gallery .gallery-section .h{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+		/*footer section*/
+.down-side{
+	padding: 30px;
+	background-color: #333333;
+
+
+}
+.down-side ul li{
+	list-style-type: none;
+	color:#BBBBBB;
+
+}
+.down-side ul li i{
+	margin-right: 10px;
+	color:#427927;
+    padding-bottom: 5px;
+}
+
+}
+.down-side .beech p{
+	padding: 30px;
+}	
+     /*second section*/	
+
+.Useful-Links h3{   font-size: 20px;
+    color: #fff;border-bottom: 1px solid #eeeeee;padding-bottom:11px;
+
+}
+.Useful-Links h3:after {
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    display: block;
+    background: #427927;
+    margin-top: 10px;
+}
+.connect-with-us h3{   font-size: 20px;
+    color: #fff;padding-bottom:11px;
+}
+.connect-with-us ul li i{
+    font-size: 15px;
+    color: #fff;
+    padding: 12px;
+    background-color: #316DC3;
+    margin-right:5px;
+    border-radius: 50%;       
+}
+.last-section{
+	height: 50px;
+	background-color:#316DC3;
+}
+.last-section p{
+	padding-top: 15px;
+	font-size: 12px;
+	color: white;
+	align-items: center;
+	padding-left: 0px;
+}
+
+
+
+
+
